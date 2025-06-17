@@ -5,6 +5,9 @@ variable "example_var" {
 }
 
 // 
+Input variables are used to parameterize your Terraform configurations. They allow you to pass values into your modules or configurations from the outside.
+Input variables can be defined within a module or at the root level of your configuration.
+
 variable is used to declare an input variable named example_var.
 description provides a human-readable description of the variable.
 type specifies the data type of the variable (e.g., string, number, list, map, etc.).
