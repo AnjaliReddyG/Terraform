@@ -13,3 +13,10 @@ description provides a human-readable description of the variable.
 type specifies the data type of the variable (e.g., string, number, list, map, etc.).
 default provides a default value for the variable, which is optional.
 //
+
+eg)
+# variables.tf
+variable "instance_type" {
+  type    = string
+  default = "t2.micro"
+}
